@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(0,31,255,1) 0%, rgba(21,218,196,1) 50%, rgba(0,31,255,1) 100%);
+
+}
+
+.container {
+    background-color: white;
+    Margin-top: 150px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: solid 1px;
+    
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+.prime{
+    color: blue;
+}
+
+.buttonOptions{
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin-top: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.leng{
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.dropdown{
+    height: 120px;
+    padding: 10px 15px 15px 15px;
+}
+
+.information{
+    padding: 15px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.img{
+    border-radius: 100%;
+    overflow: hidden;
+    
+}
+
+.move{
+    position:absolute;
+    top: 10px;
+}
+
+.bot{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: solid 1px;
+    padding: 20px 0;
+}
