@@ -1,4 +1,4 @@
-import { Route, Routes, HashRouter } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import style from './style.css';
 import Español from "./components/español";
 import English from "./components/english";
@@ -16,16 +16,14 @@ function Portfolio() {
                 <div className="move"><img className="img" src={photo} width="200px" height="200px"></img></div>
             </div>
             <div className="base">
-                <HashRouter>
-                    <Routes>
-                        <Route path='/es' element={<Español />} />
-                        <Route path='/en' element={<English />} />
-                        <Route path='/es/misproyectos' element={<MisProyectos />} />
-                        <Route path='/en/myproyects' element={<MyProjects />} />
-                        <Route path='/en/contact' element={<Contact />} />
-                        <Route path='/es/contacto' element={<Contacto />} />
-                    </Routes>
-                </HashRouter>
+                <Routes>
+                    <Route path='/es' element={<Español />} />
+                    <Route path='/en' element={<English />} />
+                    <Route path='/es/misproyectos' element={<MisProyectos />} />
+                    <Route path='/en/myproyects' element={<MyProjects />} />
+                    <Route path='/en/contact' element={<Contact />} />
+                    <Route path='/es/contacto' element={<Contacto />} />
+                </Routes>
             </div>
         </div>
     )
