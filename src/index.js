@@ -7,9 +7,9 @@ import { BrowserRouter, HashRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/porfolio">
+    <HashRouter basename="/porfolio">
       <Portfolio />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
