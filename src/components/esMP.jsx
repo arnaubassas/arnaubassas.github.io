@@ -28,7 +28,7 @@ const MisProyectos = () => {
                                     <p className="card-text">Una página que permite buscar gif's. También permite pasar las distintas pàginas y visualizar un número concreto de gifs por página.</p>
                                     <div className="btncenter">
                                         <a href="https://github.com/arnaubassas/Gifs" target="_blank" className="btn btn-primary">Github code</a>
-                                        <a href="#" target="_blank" className="btn btn-primary">Demo</a>
+                                        <a href="https://arnaubassas.github.io/Gifs/" target="_blank" className="btn btn-primary">Demo</a>
                                     </div>
                                 </div>
                             </div>

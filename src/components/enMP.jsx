@@ -28,7 +28,7 @@ const MyProjects = () => {
                                     <p className="card-text">This web let you search gifs. Have a control of number of gifs for page and include pagination.</p>
                                     <div className="btncenter engGif">
                                         <a href="https://github.com/arnaubassas/Gifs" target="_blank" className="btn btn-primary">Github code</a>
-                                        <a href="#" target="_blank" className="btn btn-primary">Demo</a>
+                                        <a href="https://arnaubassas.github.io/Gifs/" target="_blank" className="btn btn-primary">Demo</a>
                                     </div>
                                 </div>
                             </div>
