@@ -17,12 +17,12 @@ function Portfolio() {
             </div>
             <div className="base">
                 <Routes>
-                    <Route path='/es' element={<Español />} />
-                    <Route path='/en' element={<English />} />
-                    <Route path='/es/misproyectos' element={<MisProyectos />} />
-                    <Route path='/en/myproyects' element={<MyProjects />} />
-                    <Route path='/en/contact' element={<Contact />} />
-                    <Route path='/es/contacto' element={<Contacto />} />
+                    <Route exact path='/' element={<Español />} />
+                    <Route exact path='/en' element={<English />} />
+                    <Route exact path='/es/misproyectos' element={<MisProyectos />} />
+                    <Route exact path='/en/myproyects' element={<MyProjects />} />
+                    <Route exact path='/en/contact' element={<Contact />} />
+                    <Route exact path='/es/contacto' element={<Contacto />} />
                 </Routes>
             </div>
         </div>

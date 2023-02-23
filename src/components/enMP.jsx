@@ -41,7 +41,7 @@ const MyProjects = () => {
                                     <p className="card-text">Form to Sign in/Sing up with React. Combination of material UI and React Hook Form.</p>
                                     <div className="btncenter">
                                         <a href="https://github.com/arnaubassas/form" target="_blank" className="btn btn-primary">Github code</a>
-                                        <a href="#" target="_blank" className="btn btn-primary">Demo</a>
+                                        <a href="https://arnaubassas.github.io/form/#/" target="_blank" className="btn btn-primary">Demo</a>
                                     </div>
                                 </div>
                             </div>

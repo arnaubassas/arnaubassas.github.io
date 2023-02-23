@@ -12,7 +12,7 @@ const MisProyectos = () => {
         <div>
             <div><ToEnglish go={link} /></div>
             <div className="menu">
-                <div><Link className="link" to='/es'>Sobre Mi</Link></div>
+                <div><Link className="link" to='/'>Sobre Mi</Link></div>
                 <div><Link className="link prime" to='/es/misproyectos'>Mis Proyectos</Link></div>
                 <div><Link className="link" to='/es/contacto'>Contacto</Link></div>
             </div>
@@ -41,7 +41,7 @@ const MisProyectos = () => {
                                     <p className="card-text">Formulario Sign in/Sing up hecho con react. Combina el uso React hook form y la libreria de css Material UI.</p>
                                     <div className="btncenter espForm">
                                         <a href="https://github.com/arnaubassas/form" target="_blank" className="btn btn-primary">Github code</a>
-                                        <a href="#" target="_blank" className="btn btn-primary">Demo</a>
+                                        <a href="https://arnaubassas.github.io/form/#/" target="_blank" className="btn btn-primary">Demo</a>
                                     </div>
                                 </div>
                             </div>

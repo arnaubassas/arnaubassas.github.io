@@ -9,7 +9,7 @@ const Español = () => {
         <div>
             <div><ToEnglish go={link} /></div>
             <div className="menu">
-                <div><Link className="link prime" to='/es'>Sobre Mi</Link></div>
+                <div><Link className="link prime" to='/'>Sobre Mi</Link></div>
                 <div><Link className="link" to='/es/misproyectos'>Mis Proyectos</Link></div>
                 <div><Link className="link" to='/es/contacto'>Contacto</Link></div>
             </div>
@@ -17,7 +17,7 @@ const Español = () => {
                 <div className="title">Sobre mi</div>
                 <div className="text">
                     <p>Ingeniero por pasión y por saber el funcionamento de todo.
-                       Introduciendome en el sector de la programación primero por placer y ahora, espero que a nivel professional, despues de haber encontrado en el un gran atractivo.
+                        Introduciendome en el sector de la programación primero por placer y ahora, espero que a nivel professional, despues de haber encontrado en el un gran atractivo.
                     </p>
                     <p>Soy una persona autodidacta que prefiere preguntar una vez ha intentado solucionar los problemas préviamente.
                         A veces lleva por un camino erroneo pero sirve por futuras ocasiones.</p>
@@ -36,8 +36,8 @@ const Español = () => {
                                 <div class="card">
                                     <div class="card-body p-4">
                                         <h4>Febrero 2022</h4>
-                                        <p className="job">Ingeniero de Proyectos</p>  
-                                        <p className="company">TESEM GROUP</p>                            
+                                        <p className="job">Ingeniero de Proyectos</p>
+                                        <p className="company">TESEM GROUP</p>
                                         <p class="mb-0 description">
                                             <p>- Supervisión de inspecciones de incendios.</p>
                                             <p>- Creación, pressupuesto, supervisión y diseño de proyectos de mejora en las infraestructuras.</p>
@@ -51,7 +51,7 @@ const Español = () => {
                                     <div class="card-body p-4">
                                         <h4>Febrero 2021</h4>
                                         <p className="job">Prácticas</p>
-                                        <p className="company">Johnson Controls-Hitachi Air Conditioning</p>   
+                                        <p className="company">Johnson Controls-Hitachi Air Conditioning</p>
                                         <p class="mb-0 description">
                                             <p>- Realización, seguimiento y mejora de KPI's.</p>
                                             <p>- Proyectos de mejora con pequeños layouts.</p>
@@ -67,9 +67,9 @@ const Español = () => {
                                     <div class="card-body p-4">
                                         <h4>Julio 2017</h4>
                                         <p className="job">Mozo almacén</p>
-                                        <p className="company">Grup Gepork</p>   
+                                        <p className="company">Grup Gepork</p>
                                         <p class="mb-0 description">
-                                         - Trabajo en un almacén durante periodos de vacaciones de la universidad.
+                                            - Trabajo en un almacén durante periodos de vacaciones de la universidad.
                                         </p>
                                     </div>
                                 </div>

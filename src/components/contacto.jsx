@@ -9,7 +9,7 @@ const Contacto = () => {
         <div>
             <div><ToEnglish go={link} /></div>
             <div className="menu">
-                <div><Link className="link" to='/es'>Sobre Mi</Link></div>
+                <div><Link className="link" to='/'>Sobre Mi</Link></div>
                 <div><Link className="link" to='/es/misproyectos'>Mis Proyectos</Link></div>
                 <div><Link className="link prime" to='/es/contacto'>Contacto</Link></div>
             </div>

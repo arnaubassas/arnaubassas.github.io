@@ -3,7 +3,7 @@ import BotEnglish from "./botEnglish"
 import ToSpanish from "./toSpanish"
 
 const English = () => {
-    const link = "/es"
+    const link = "/"
 
     return (
         <div>
@@ -19,12 +19,12 @@ const English = () => {
                     <p>Engineer by passion, trying to know how everything works.
                         At first, I got into programming as a hobby, but after some time I realized I wanted to become a professional developer.
                     </p>
-                    <p>I love to learn by doing, even if sometimes this puts you in the wrong path. 
+                    <p>I love to learn by doing, even if sometimes this puts you in the wrong path.
                         I think it's a good way to acquire knowledge for future occasions. when that's not enough I can rely on a teammate for help.
                     </p>
                     <p> I like to work as a team, specially if there is good communication to avoid mistakes.
                         I try to improve every day so I am better than yesterday but worse than tomorrow.
-                        
+
                     </p>
                     <p>You can find me running, climbing, reading a book just for pleasure,
                         listening music or lost somewhere to discover a little piece of the world.
@@ -39,9 +39,9 @@ const English = () => {
                                 <div class="card">
                                     <div class="card-body p-4">
                                         <h4>February 2022</h4>
-                                        <p className="job">Projects Engineer</p>   
+                                        <p className="job">Projects Engineer</p>
                                         <p className="company">TESEM GROUP</p>
-                                        <p class="mb-0 description"> 
+                                        <p class="mb-0 description">
                                             <p>- Fire inspection supervision.</p>
                                             <p>- Creation, make budgets, supervision and layout of projects to upgrade infrastructures.</p>
                                             <p>- Creation and supervision of projects to upgrade and optimize production and costs.</p>
@@ -54,7 +54,7 @@ const English = () => {
                                     <div class="card-body p-4">
                                         <h4>February 2021</h4>
                                         <p className="job">Internship</p>
-                                        <p className="company">Johnson Controls-Hitachi Air Conditioning</p>   
+                                        <p className="company">Johnson Controls-Hitachi Air Conditioning</p>
                                         <p class="mb-0 description">
                                             <p>- Do, follow up and upgrade of KPI's.</p>
                                             <p>- Upgrade projects with layouts.</p>
@@ -70,9 +70,9 @@ const English = () => {
                                     <div class="card-body p-4">
                                         <h4>July 2017</h4>
                                         <p className="jobs">warehouse boy</p>
-                                        <p className="company">Grup Gepork</p>   
+                                        <p className="company">Grup Gepork</p>
                                         <p class="mb-0 description">
-                                        - Job in a warehouse during the university holidays.
+                                            - Job in a warehouse during the university holidays.
                                         </p>
                                     </div>
                                 </div>
