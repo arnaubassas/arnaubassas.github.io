@@ -60,7 +60,7 @@ const MyProjects = () => {
                                     </p>
                                     <div className="btncenter">
                                         <a href="https://github.com/arnaubassas/twitter" target="_blank" className="btn btn-primary">Github code</a>
-                                        <a href="#" target="_blank" className="btn btn-primary">Demo</a>
+                                        <a href="https://arnau-app.onrender.com/home" target="_blank" className="btn btn-primary">Demo</a>
                                     </div>
                                 </div>
                             </div>

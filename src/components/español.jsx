@@ -16,16 +16,18 @@ const Español = () => {
             <div className="information">
                 <div className="title">Sobre mi</div>
                 <div className="text">
-                    <p>Ingeniero por pasión y por saber el funcionamento de todo.
-                        Introduciendome en el sector de la programación primero por placer y ahora, espero que a nivel professional, despues de haber encontrado en el un gran atractivo.
+                    <p>Ingeniero por pasión y por saber el funcionamiento de todo. Introduciéndome en el sector de la programación primero por placer y ahora, espero que a nivel profesional, después de haber encontrado en él un gran atractivo.
+
                     </p>
-                    <p>Soy una persona autodidacta que prefiere preguntar una vez ha intentado solucionar los problemas préviamente.
-                        A veces lleva por un camino erroneo pero sirve por futuras ocasiones.</p>
+                    <p>Soy una persona autodidacta que prefiere preguntar una vez ha intentado solucionar los problemas previamente.
+                        A veces lleva por un camino erróneo pero sirve para futuras ocasiones.
+                    </p>
                     <p>Muy fan de trabajar en equipo siempre que haya diálogo entre las partes.
                         Intentando siempre ser un poco mejor que ayer y peor que mañana para un crecimiento constante.
                     </p>
-                    <p>También podràs encontrarme corriendo, escalando, leyendo algun libro por puro placer,
-                        escuchando musica o viajando para que poco a poco pueda descubrir mundo.</p>
+                    <p>También podràs encontrarme corriendo, escalando, leyendo algún libro por puro placer,
+                        escuchando música o viajando para que poco a poco pueda descubrir mundo.
+                    </p>
                 </div>
                 <div className="title">Experiencia</div>
                 <div className="text">

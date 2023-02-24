@@ -69,7 +69,7 @@ const English = () => {
                                 <div class="card">
                                     <div class="card-body p-4">
                                         <h4>July 2017</h4>
-                                        <p className="jobs">warehouse boy</p>
+                                        <p className="jobs">Warehouse boy</p>
                                         <p className="company">Grup Gepork</p>
                                         <p class="mb-0 description">
                                             - Job in a warehouse during the university holidays.
