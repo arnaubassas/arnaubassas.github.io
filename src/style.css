@@ -210,14 +210,12 @@ h5 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-right: 10px;
 }
 
 .degreeInformation {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex: 1;
   padding: 20px 0 10px 15px;
-
 }
 
 .college {
@@ -226,7 +224,7 @@ h5 {
 
 .promotionYear {
   font-size: small;
-  padding-left: 250px;
+  text-align: right;
 }
 
 .job {
@@ -249,7 +247,7 @@ h5 {
 
   .educationBox {
     width: 300px;
-
+    max-width: 100%;
   }
 
 
@@ -289,10 +287,6 @@ h5 {
 
   .educationBox {
     width: 400px;
-  }
-
-  .promotionYear {
-    padding-left: 150px;
   }
 }
 
