@@ -35,6 +35,22 @@ const English = () => {
                     <div className="tl">
                         <h5 className="h5">Today</h5>
                         <div class="main-timeline">
+                            <div class="timeline left">
+                                <div class="card">
+                                    <div class="card-body p-4">
+                                        <h4>March 2023</h4>
+                                        <p className="job">Fullstack Junior Angular/NodeJs</p>
+                                        <p className="company">ApFutura</p>
+                                        <p class="mb-0 description">
+                                            <p>- I work with a map implementation app with fiber elements.
+                                                Companies could see the possibilities of reaching customer service and localize where breakdowns occurred for repairs."</p>
+                                            <p>- Maintenance of the App.</p>
+                                            <p>- Implementation of new features.</p>
+                                            <p>- Database management.</p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="timeline right">
                                 <div class="card">
                                     <div class="card-body p-4">
@@ -84,7 +100,7 @@ const English = () => {
                 <div className="title">Education</div>
                 <div className="text">
                     <div className="card educationBox">
-                        <div className="schoolLogo"><img src="https://upload.wikimedia.org/wikipedia/ca/thumb/b/b5/Logo_upc.svg/1200px-Logo_upc.svg.png" width="100px" height="100px"></img></div>
+                        <div className="schoolLogo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_UPC.svg/1024px-Logo_UPC.svg.png" width="100px" height="100px"></img></div>
                         <div className="degreeInformation">
                             <p className="college">Universitat Politecnica de Catalunya</p>
                             <p>Industrial Engineering Degree</p>

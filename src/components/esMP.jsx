@@ -4,6 +4,7 @@ import BotSpanish from "./botSpanish"
 import form from "../img/form.png"
 import giff from "../img/gifSeeker.png"
 import twitter from "../img/twitter.png"
+import library from "../img/library.png"
 
 const MisProyectos = () => {
     const link = "/en/myproyects"
@@ -65,13 +66,28 @@ const MisProyectos = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-sm-6 mb-3 mb-sm-0">
+                            <div className="card">
+                                <div className="card-body roleCard2Esp">
+                                    <img src={library} class="card-img-top" />
+                                    <h5 className="card-title">Mini Web de una Biblioteca</h5>
+                                    <p className="card-text">Web realizada para completar el reto de prueba de junior de midudev del siguiente enlace: <a href='https://github.com/midudev/pruebas-tecnicas/blob/main/pruebas/01-reading-list/README.md' target="blank">prueba técnica</a>.
+                                    </p>
+                                    <p className="card-text"> Objetivo: Somos un sello editorial de libros multinacional. Queremos ofrecer a nuestro público una forma de ver nuestro catálogo y poder guardar los libros que les interesan en una lista de lectura.</p>
+                                    <div className="btncenter botonSpaceEs">
+                                        <a href="https://github.com/arnaubassas/library" target="_blank" className="btn btn-primary">Github code</a>
+                                        <a href="https://arnaubassas.github.io/library/" target="_blank" className="btn btn-primary">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="bot">
                 <BotSpanish />
             </div>
-        </div>
+        </div >
     )
 
 }

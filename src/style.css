@@ -294,8 +294,16 @@ h5 {
   height: 400px;
 }
 
+.roleCard2Esp {
+  height: 577px;
+}
+
 .roleCard1Eng {
   height: 385px;
+}
+
+.roleCard2Eng {
+  height: 529px;
 }
 
 .espForm {
@@ -304,4 +312,14 @@ h5 {
 
 .engGif {
   padding-top: 10px;
+}
+
+.botonSpaceEng {
+  margin-top: 60px;
+
+}
+
+.botonSpaceEs {
+  margin-top: 85px;
+
 }

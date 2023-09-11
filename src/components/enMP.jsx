@@ -4,6 +4,7 @@ import ToSpanish from "./toSpanish"
 import form from "../img/form.png"
 import giff from "../img/gifSeeker.png"
 import twitter from "../img/twitter.png"
+import library from "../img/library.png"
 
 const MyProjects = () => {
     const link = "/es/misproyectos"
@@ -61,6 +62,21 @@ const MyProjects = () => {
                                     <div className="btncenter">
                                         <a href="https://github.com/arnaubassas/twitter" target="_blank" className="btn btn-primary">Github code</a>
                                         <a href="https://arnau-app.onrender.com/home" target="_blank" className="btn btn-primary">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 mb-3 mb-sm-0">
+                            <div className="card">
+                                <div className="card-body roleCard2Eng">
+                                    <img src={library} class="card-img-top" />
+                                    <h5 className="card-title">Library web</h5>
+                                    <p className="card-text">Website created to complete the junior test challenge by Midudev from the following link: <a href='https://github.com/midudev/pruebas-tecnicas/blob/main/pruebas/01-reading-list/README.md' target="blank">prueba técnica</a>.
+                                    </p>
+                                    <p className="card-text"> Objective: We are a multinational book publishing label. We want to provide our audience with a way to view our catalog and save the books that interest them in a reading list.</p>
+                                    <div className="btncenter botonSpaceEng">
+                                        <a href="https://github.com/arnaubassas/library" target="_blank" className="btn btn-primary">Github code</a>
+                                        <a href="https://arnaubassas.github.io/library/" target="_blank" className="btn btn-primary">Demo</a>
                                     </div>
                                 </div>
                             </div>
